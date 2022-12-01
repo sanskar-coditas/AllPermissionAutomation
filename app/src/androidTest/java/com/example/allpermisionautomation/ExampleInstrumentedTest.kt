@@ -6,6 +6,7 @@ import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice
+import androidx.test.uiautomator.UiObject
 import androidx.test.uiautomator.UiSelector
 import org.junit.Assert.*
 import org.junit.Rule
@@ -35,11 +36,14 @@ class ExampleInstrumentedTest {
     @Test
     fun clickonButton() {
         //click on blutooth button
-        device.findObject(UiSelector().text("BLUETOOTH")).click()
+        val button: UiObject =device.findObject(UiSelector().text("BLUETOOTH"))
+        button.waitForExists(5000)
+        button.click()
         //click on allow
         device.findObject(UiSelector().text("Allow")).click()
         //click home button
         device.pressHome()
+
 
     }
 }
