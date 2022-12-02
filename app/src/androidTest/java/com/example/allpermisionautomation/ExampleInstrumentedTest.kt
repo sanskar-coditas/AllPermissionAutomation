@@ -28,7 +28,7 @@ private const val STRING_TO_BE_TYPED = "UiAutomator"
 @RunWith(AndroidJUnit4::class)
 @SdkSuppress(minSdkVersion = 18)
 class ExampleInstrumentedTest {
-    private lateinit var device: UiDevice
+    private lateinit var device: UiDevice-
 @get:Rule
 var activityScenarioRule=ActivityScenarioRule(MainActivity::class.java)
    @Test
@@ -41,7 +41,7 @@ var activityScenarioRule=ActivityScenarioRule(MainActivity::class.java)
        bluetoothBtn.click()
 
        val allowBtn:UiObject=device.findObject(UiSelector().text("Allow").className("android.widget.Button"))
-       allowBtn.click()
+      allowBtn.click()
 
 
 
