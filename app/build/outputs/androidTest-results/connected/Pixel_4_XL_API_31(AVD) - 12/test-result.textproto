@@ -1,0 +1,68 @@
+# 2022-12-01T12:22:57.267Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ExampleInstrumentedTest"
+    test_package: "com.example.allpermisionautomation"
+    test_method: "bluetoothPermission"
+    start_time {
+      seconds: 1669897366
+      nanos: 897000000
+    }
+    end_time {
+      seconds: 1669897376
+      nanos: 323000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\coditas\\Desktop\\AllPermissionAutomation\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_XL_API_31(AVD) - 12\\logcat-com.example.allpermisionautomation.ExampleInstrumentedTest-bluetoothPermission.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\coditas\\Desktop\\AllPermissionAutomation\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_XL_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\coditas\\Desktop\\AllPermissionAutomation\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_XL_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\coditas\\Desktop\\AllPermissionAutomation\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_XL_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\coditas\\Desktop\\AllPermissionAutomation\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_XL_API_31(AVD) - 12\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

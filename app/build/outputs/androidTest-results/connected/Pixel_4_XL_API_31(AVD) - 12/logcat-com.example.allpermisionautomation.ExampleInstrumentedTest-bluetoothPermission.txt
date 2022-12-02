@@ -1,0 +1,162 @@
+12-01 17:52:41.781  5299  5332 I TestRunner: started: bluetoothPermission(com.example.allpermisionautomation.ExampleInstrumentedTest)
+12-01 17:52:41.808  5299  5332 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+12-01 17:52:41.827  5299  5332 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10167; state: ENABLED
+12-01 17:52:41.908   723   872 D SplashScreenView: Build android.window.SplashScreenView{79dfc4e V.E...... ......ID 0,0-0,0}
+12-01 17:52:41.908   723   872 D SplashScreenView: Icon: view: null drawable: null size: 0
+12-01 17:52:41.908   723   872 D SplashScreenView: Branding: view: android.view.View{378616f G.ED..... ......I. 0,0-0,0 #10204a6 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+12-01 17:52:41.950   312   312 D Zygote  : Forked child process 5334
+12-01 17:52:41.996  5334  5334 I automation.tes: Late-enabling -Xcheck:jni
+12-01 17:52:42.027   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3ddf90000 0x3df043000]
+12-01 17:52:42.076  2216  2216 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+12-01 17:52:42.077  2216  2216 E HwDetectorWithState: a: 3
+12-01 17:52:42.090   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e0000000 0x3e10b3000]
+12-01 17:52:42.157   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e4000000 0x3e50b3000]
+12-01 17:52:42.193  1069  1644 D EGL_emulation: app_time_stats: avg=2510.88ms min=2510.88ms max=2510.88ms count=1
+12-01 17:52:42.198  5334  5334 W automation.tes: Unexpected CPU variant for X86 using defaults: x86_64
+12-01 17:52:42.252   408   437 I adbd    : jdwp connection from 5334
+12-01 17:52:42.476  5334  5334 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10161; state: ENABLED
+12-01 17:52:42.616  5334  5334 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+12-01 17:52:42.629  5334  5334 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+12-01 17:52:42.637  5334  5334 W automation.tes: ClassLoaderContext shared library size mismatch. Expected=0, found=2 (PCL[] | PCL[]{PCL[/system/framework/android.test.base.jar*3790657674]#PCL[/system/framework/android.test.mock.jar*3278543460]})
+12-01 17:52:42.673  5299  5308 I isionautomatio: Background young concurrent copying GC freed 15697(1015KB) AllocSpace objects, 0(0B) LOS objects, 92% free, 2095KB/26MB, paused 18.176ms,105us total 29.418ms
+12-01 17:52:42.677   723   884 D EGL_emulation: app_time_stats: avg=10999.82ms min=2.21ms max=76835.93ms count=7
+12-01 17:52:42.736  5334  5334 V GraphicsEnvironment: ANGLE Developer option for 'com.example.allpermisionautomation.test' set to: 'default'
+12-01 17:52:42.741  5334  5334 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+12-01 17:52:42.745  5334  5334 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-01 17:52:42.755  5334  5334 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-01 17:52:42.850  5334  5361 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+12-01 17:52:42.905  5334  5361 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+12-01 17:52:42.912  5334  5361 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+12-01 17:52:43.259  5299  5365 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+12-01 17:52:43.262  5299  5365 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+12-01 17:52:43.267  5299  5365 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+12-01 17:52:43.363   537   561 W system_server: Long monitor contention with owner android.display (563) at boolean android.os.MessageQueue.enqueueMessage(android.os.Message, long)(MessageQueue.java:600) waiters=0 in android.os.Message android.os.MessageQueue.next() for 107ms
+12-01 17:52:43.386   537  2700 W system_server: Long monitor contention with owner android.display (563) at void com.android.server.am.ProcessRecord.updateProcessInfo(boolean, boolean, boolean)(ProcessRecord.java:1244) waiters=1 in void com.android.server.am.ActivityManagerService.trimApplications(boolean, java.lang.String) for 224ms
+12-01 17:52:43.611  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: PRE_ON_CREATE
+12-01 17:52:43.614  5299  5299 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+12-01 17:52:43.698   723   884 D EGL_emulation: app_time_stats: avg=27.21ms min=2.12ms max=109.94ms count=23
+12-01 17:52:44.028  5299  5299 W isionautomatio: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+12-01 17:52:44.033  5299  5299 W isionautomatio: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+12-01 17:52:44.232  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: CREATED
+12-01 17:52:44.235  5299  5299 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.allpermisionautomation.MainActivity@9a24914
+12-01 17:52:44.242  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: STARTED
+12-01 17:52:44.243  5299  5299 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.allpermisionautomation.MainActivity@9a24914
+12-01 17:52:44.247  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: RESUMED
+12-01 17:52:44.248  5299  5299 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.allpermisionautomation.MainActivity@9a24914
+12-01 17:52:44.294  5299  5366 V UiAutomation: Init UiAutomation@66ab022[id=56, flags=0]
+12-01 17:52:44.307  1784  1982 I A       : NGA disabled due to not being eligible.
+12-01 17:52:44.474  5299  5362 D HostConnection: createUnique: call
+12-01 17:52:44.475  5299  5362 D HostConnection: HostConnection::get() New Host Connection established 0x7533bf318390, tid 5362
+12-01 17:52:44.494  5299  5362 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+12-01 17:52:44.498   172   172 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+12-01 17:52:44.499  5299  5362 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-01 17:52:44.504  5299  5362 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+12-01 17:52:44.526  5299  5362 D EGL_emulation: eglCreateContext: 0x7533bf320490: maj 2 min 0 rcv 2
+12-01 17:52:44.590  5299  5362 D EGL_emulation: eglMakeCurrent: 0x7533bf320490: ver 2 0 (tinfo 0x7535d7c87080) (first time)
+12-01 17:52:44.607   399   406 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+12-01 17:52:44.609   172   172 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+12-01 17:52:44.610  5299  5362 I Gralloc4: mapper 4.x is not supported
+12-01 17:52:44.612  5299  5362 D HostConnection: createUnique: call
+12-01 17:52:44.613  5299  5362 D HostConnection: HostConnection::get() New Host Connection established 0x7533bf31ebd0, tid 5362
+12-01 17:52:44.614  5299  5362 D goldfish-address-space: allocate: Ask for block of size 0x100
+12-01 17:52:44.615  5299  5362 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3dbffe000 size 0x2000
+12-01 17:52:44.617   172   172 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+12-01 17:52:44.618  5299  5362 W Gralloc4: allocator 4.x is not supported
+12-01 17:52:44.620   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3dc000000 0x3dd0b3000]
+12-01 17:52:44.629  5299  5362 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+12-01 17:52:44.632   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e50b3000 0x3e6166000]
+12-01 17:52:44.635   333   381 D goldfish-address-space: claimShared: Ask to claim region [0x3e8000000 0x3e90b3000]
+12-01 17:52:44.702   537   560 I ActivityTaskManager: Displayed com.example.allpermisionautomation/.MainActivity: +2s861ms
+12-01 17:52:44.764  1333  1333 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+12-01 17:52:44.765  1333  1333 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+12-01 17:52:44.768  1333  1333 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+12-01 17:52:44.949  1192  1206 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+12-01 17:52:44.951  1192  1206 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+12-01 17:52:44.958  1192  1206 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+12-01 17:52:45.020  1192  1206 I FontLog : Pulling font file for id = 115, cache size = 4 [CONTEXT service_id=132 ]
+12-01 17:52:45.069  1192  1206 I FontLog : Pulling font file for id = 115, cache size = 4 [CONTEXT service_id=132 ]
+12-01 17:52:45.073   537  2039 W InputManager-JNI: Input channel object 'ffb123d Splash Screen com.example.allpermisionautomation.test (client)' was disposed without first being removed with the input manager!
+12-01 17:52:45.248  5299  5332 I QueryController: Matched selector: UiSelector[TEXT=BLUETOOTH, CLASS=android.widget.Button] <<==>> [android.view.accessibility.AccessibilityNodeInfo@95ce; boundsInParent: Rect(0, 0 - 362, 168); boundsInScreen: Rect(490, 168 - 852, 336); packageName: com.example.allpermisionautomation; className: android.widget.Button; text: BLUETOOTH; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: com.example.allpermisionautomation:id/btnBluetoothPermission; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null]]
+12-01 17:52:45.266  5299  5332 D InteractionController: clickAndSync(671, 252)
+12-01 17:52:45.564   390   496 D AudioFlinger: mixer(0x772cfd485a70) throttle end: throttle time(18)
+12-01 17:52:45.581  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: PAUSED
+12-01 17:52:45.582  5299  5299 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.allpermisionautomation.MainActivity@9a24914
+12-01 17:52:45.725   317  5372 E android.hardware.audio@6.0-impl.ranchu: pcmWrite:203 pcm_write failed with  (-5)
+12-01 17:52:45.727   317  5372 E android.hardware.audio@6.0-impl.ranchu: device/generic/goldfish/audio/talsa.cpp:pcmWrite:204 failure: false
+12-01 17:52:45.832   537   560 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity: +283ms
+12-01 17:52:45.849  5299  5362 D EGL_emulation: app_time_stats: avg=94.99ms min=18.83ms max=363.42ms count=11
+12-01 17:52:46.106   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3ddf90000 0x3df1bc000]
+12-01 17:52:46.286   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e0000000 0x3e122c000]
+12-01 17:52:46.523   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e90b3000 0x3ea2df000]
+12-01 17:52:47.066  5299  5332 I QueryController: Matched selector: UiSelector[TEXT=Allow, CLASS=android.widget.Button] <<==>> [android.view.accessibility.AccessibilityNodeInfo@1f6ad; boundsInParent: Rect(0, 0 - 1254, 196); boundsInScreen: Rect(93, 1595 - 1347, 1791); packageName: com.google.android.permissioncontroller; className: android.widget.Button; text: Allow; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: com.android.permissioncontroller:id/permission_allow_button; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]]
+12-01 17:52:47.083  5299  5332 D InteractionController: clickAndSync(720, 1693)
+12-01 17:52:47.574   317  5372 E android.hardware.audio@6.0-impl.ranchu: pcmWrite:203 pcm_write failed with  (-5)
+12-01 17:52:47.574   317  5372 E android.hardware.audio@6.0-impl.ranchu: device/generic/goldfish/audio/talsa.cpp:pcmWrite:204 failure: false
+12-01 17:52:47.843 24873 24873 V GrantPermissionsViewModel: Logged buttons presented and clicked permissionGroupName=android.permission-group.NEARBY_DEVICES uid=10167 selectedLocations=0 package=com.example.allpermisionautomation presentedButtons=9 clickedButton=1 sessionId=8118521986549406714 targetSdk=33
+12-01 17:52:47.886 24873 24873 V GrantPermissionsViewModel: Permission grant result requestId=8118521986549406714 callingUid=10167 callingPackage=com.example.allpermisionautomation permission=android.permission.BLUETOOTH_SCAN isImplicit=false result=4
+12-01 17:52:47.887 24873 24873 V GrantPermissionsViewModel: Permission grant result requestId=8118521986549406714 callingUid=10167 callingPackage=com.example.allpermisionautomation permission=android.permission.BLUETOOTH_CONNECT isImplicit=false result=4
+12-01 17:52:47.897   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3df1bc000 0x3dfc6c000]
+12-01 17:52:47.978   390   496 D AudioFlinger: mixer(0x772cfd485a70) throttle end: throttle time(27)
+12-01 17:52:48.634  5299  5299 W isionautomatio: Verification of int kotlin.collections.ArraysKt___ArraysKt.indexOfFirst(float[], kotlin.jvm.functions.Function1) took 100.090ms (389.65 bytecodes/s) (2184B approximate peak alloc)
+12-01 17:52:48.790  5299  5299 D test006 : android.permission.BLUETOOTH_SCAN = true
+12-01 17:52:48.791  5299  5299 D test006 : android.permission.BLUETOOTH_CONNECT = true
+12-01 17:52:48.791  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: RESUMED
+12-01 17:52:48.792  5299  5299 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.allpermisionautomation.MainActivity@9a24914
+12-01 17:52:48.811  1333  1333 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+12-01 17:52:48.811  1333  1333 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+12-01 17:52:48.813  1333  1333 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+12-01 17:52:48.829  5299  5362 D EGL_emulation: app_time_stats: avg=251.41ms min=6.64ms max=2245.55ms count=11
+12-01 17:52:49.094 24873 24873 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+12-01 17:52:49.097  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: PAUSED
+12-01 17:52:49.098  5299  5299 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.allpermisionautomation.MainActivity@9a24914
+12-01 17:52:49.355  5334  5359 D HostConnection: createUnique: call
+12-01 17:52:49.358   537   615 W InputManager-JNI: Input channel object '6621c97 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity (client)' was disposed without first being removed with the input manager!
+12-01 17:52:49.360  5334  5359 D HostConnection: HostConnection::get() New Host Connection established 0x7533bf31ef90, tid 5359
+12-01 17:52:49.383  5334  5359 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+12-01 17:52:49.399   172   172 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+12-01 17:52:49.404  5334  5359 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-01 17:52:49.406  5334  5359 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+12-01 17:52:49.424  5334  5359 D EGL_emulation: eglCreateContext: 0x7533bf31fe90: maj 2 min 0 rcv 2
+12-01 17:52:49.526  5334  5359 D EGL_emulation: eglMakeCurrent: 0x7533bf31fe90: ver 2 0 (tinfo 0x7535d82f5080) (first time)
+12-01 17:52:49.562   399   406 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)
+12-01 17:52:49.564   172   172 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+12-01 17:52:49.567  5334  5359 I Gralloc4: mapper 4.x is not supported
+12-01 17:52:49.571  5334  5359 D HostConnection: createUnique: call
+12-01 17:52:49.571  5334  5359 D HostConnection: HostConnection::get() New Host Connection established 0x7533bf31ed50, tid 5359
+12-01 17:52:49.574  5334  5359 D goldfish-address-space: allocate: Ask for block of size 0x100
+12-01 17:52:49.574  5334  5359 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3dbffe000 size 0x2000
+12-01 17:52:49.578   172   172 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+12-01 17:52:49.580  5334  5359 W Gralloc4: allocator 4.x is not supported
+12-01 17:52:49.583   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3ddf90000 0x3df043000]
+12-01 17:52:49.594  5334  5359 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_2
+12-01 17:52:49.600   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e0000000 0x3e10b3000]
+12-01 17:52:49.608   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e10b3000 0x3e2166000]
+12-01 17:52:50.004   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e4000000 0x3e50b3000]
+12-01 17:52:50.014   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e90b3000 0x3ea166000]
+12-01 17:52:50.023   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3ea166000 0x3eb219000]
+12-01 17:52:50.104   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3dd0b3000 0x3ddb63000]
+12-01 17:52:50.233   537  1729 W InputManager-JNI: Input channel object '90d31ae com.example.allpermisionautomation.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+12-01 17:52:50.341  1784  1784 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=98, right=0, bottom=168}
+12-01 17:52:50.341  1784  1784 I A       : onApplyWindowInsets: systemWindowInsets=Insets{left=0, top=98, right=0, bottom=168}
+12-01 17:52:50.367   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3ddf90000 0x3df043000]
+12-01 17:52:50.384   333  9034 D goldfish-address-space: claimShared: Ask to claim region [0x3e0000000 0x3e10b3000]
+12-01 17:52:50.419   333   381 D goldfish-address-space: claimShared: Ask to claim region [0x3e10b3000 0x3e2166000]
+12-01 17:52:50.489   333   381 D goldfish-address-space: claimShared: Ask to claim region [0x3eea7a000 0x3efb2d000]
+12-01 17:52:50.521   333   381 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ed0b3000]
+12-01 17:52:50.528  1784  3558 I OpenGLRenderer: Davey! duration=574120ms; Flags=1, FrameTimelineVsyncId=239105, IntendedVsync=36747105652896, Vsync=36747105652896, InputEventId=0, HandleInputStart=36747116285300, AnimationStart=36747116320700, PerformTraversalsStart=36747118058200, DrawStart=36747219946500, FrameDeadline=36747155652894, FrameInterval=36747116263200, FrameStartTime=16666666, SyncQueued=36747220199000, SyncStart=36747222068900, IssueDrawCommandsStart=36747222511700, SwapBuffers=36747233263600, FrameCompleted=37321228392100, DequeueBufferDuration=8397300, QueueBufferDuration=65085400, GpuCompleted=37321228392100, SwapBuffersCompleted=36747371143600, DisplayPresentTime=0,
+12-01 17:52:50.531   333   381 D goldfish-address-space: claimShared: Ask to claim region [0x3ed0b3000 0x3ee166000]
+12-01 17:52:50.538   317  5372 E android.hardware.audio@6.0-impl.ranchu: pcmWrite:203 pcm_write failed with  (-5)
+12-01 17:52:50.538   317  5372 E android.hardware.audio@6.0-impl.ranchu: device/generic/goldfish/audio/talsa.cpp:pcmWrite:204 failure: false
+12-01 17:52:50.578  2216  2216 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+12-01 17:52:50.578  2216  2216 I GsaVoiceInteractionSrv: disregardVoiceMatch: false
+12-01 17:52:50.579  2216  2216 I GsaVoiceInteractionSrv: Cannot start hotword, hotword has been explicitly disabled.
+12-01 17:52:50.744   723   738 I ndroid.systemu: NativeAlloc concurrent copying GC freed 19066(1077KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 10055KB/19MB, paused 3.333ms,98us total 551.505ms
+12-01 17:52:50.782   723   884 D EGL_emulation: app_time_stats: avg=554.48ms min=2.36ms max=6607.24ms count=12
+12-01 17:52:50.796  1333  1333 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3420
+12-01 17:52:50.797  1333  1333 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():2002
+12-01 17:52:50.798  1333  1333 I DeviceUnlockedTag: DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked.
+12-01 17:52:51.096  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: STOPPED
+12-01 17:52:51.097  5299  5299 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.allpermisionautomation.MainActivity@9a24914
+12-01 17:52:51.173  5299  5299 D LifecycleMonitor: Lifecycle status change: com.example.allpermisionautomation.MainActivity@9a24914 in: DESTROYED
+12-01 17:52:51.173  5299  5299 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+12-01 17:52:51.176  5299  5332 I TestRunner: finished: bluetoothPermission(com.example.allpermisionautomation.ExampleInstrumentedTest)

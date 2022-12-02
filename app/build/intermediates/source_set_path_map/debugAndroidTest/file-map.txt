@@ -1,0 +1,8 @@
+com.example.allpermisionautomation.test.app-uiautomator-2.3.0-alpha01-0 C:\Users\coditas\.gradle\caches\transforms-3\a92f2d9da8d6b583304ece6175d9aad3\transformed\uiautomator-2.3.0-alpha01\res
+com.example.allpermisionautomation.test.app-androidTest-1 C:\Users\coditas\Desktop\AllPermissionAutomation\app\build\generated\res\resValues\androidTest\debug
+com.example.allpermisionautomation.test.app-androidTest-2 C:\Users\coditas\Desktop\AllPermissionAutomation\app\build\generated\res\rs\androidTest\debug
+com.example.allpermisionautomation.test.app-mergeDebugAndroidTestResources-3 C:\Users\coditas\Desktop\AllPermissionAutomation\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.allpermisionautomation.test.app-mergeDebugAndroidTestResources-4 C:\Users\coditas\Desktop\AllPermissionAutomation\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.allpermisionautomation.test.app-merged_res-5 C:\Users\coditas\Desktop\AllPermissionAutomation\app\build\intermediates\merged_res\debugAndroidTest
+com.example.allpermisionautomation.test.app-androidTest-6 C:\Users\coditas\Desktop\AllPermissionAutomation\app\src\androidTest\res
+com.example.allpermisionautomation.test.app-androidTestDebug-7 C:\Users\coditas\Desktop\AllPermissionAutomation\app\src\androidTestDebug\res
